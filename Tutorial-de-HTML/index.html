@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En esta pagina estamos aprendiendo HTML con el profe Marcos">
+    <title>Repasando HTML</title>
+    <link rel="icon" href="IMG/logo2.svg"><!--Agrega un icono en la pestaña del navegador-->
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body background="IMG/fondo1.jpg">
+    <h1 id="inicio">
+     <marquee behavior="alternate">Tutorial de HTML</marquee>
+    </h1> 
+    <!--Solo se escribe uno por documento HTML-->
+    <li><a href="index.html#imagenes">Imagenes</a></li>
+    <li><a href="index.html#encabezados">Encabezados</a></li>
+    <li><a href="index.html#etiqueta-texto">Etiqueta de texto basica</a></li>
+    <li><a href="index.html#etiqueta-salto">Etiquetas de salto</a></li>
+    <li><a href="index.html#etiqueta-formateo">Etiqueta de formateo</a></li>
+    <li><a href="index.html#listas-ordenadas">Listas ordenadas</a></li>
+    <li><a href="index.html#listas-desordenadas">Listas desordenadas</a></li>
+    <li><a href="index.html#tablas">Tablas</a></li>
+    <li><a href="index.html#enlaces">Enlaces</a></li>
+    <li><a href="index.html#texto-codigo">Texto en formato de codigo</a></li>
+    <li><a href="index.html#etiquetas-sematicas">Etiquetas semanticas estructurales</a></li>
+    <li><a href="index.html#etiqueta-bloque-linea">Etiqueta de bloque vs Etiqueta de linea</a></li>
+    <hr>
+    <h2 id="imagenes"><span style="background-color:coral">Imagenes</span></h2><!--Este se usa para subtitulos-->
+    <img src="IMG/logo-html.png" alt="Logo de HTML">
+    <br>
+    <img src="IMG/logo.svg" alt="Logo de HTML">
+    <br>
+    <figure>
+        <img src="IMG/logo2.svg" alt="Icono de HTML">
+        <figcaption>Icono de HTML</figcaption>
+    </figure>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h1 id="encabezados"><span style="background-color:darkorange">Encabezados</span></h1>
+    <h1>Encabezados de nivel 1</h1>
+    <h2>Encabezados de nivel 2</h2>
+    <h3>Encabezados de nivel 3</h3>
+    <h4>Encabezados de nivel 4</h4>
+    <h5>Encabezados de nivel 5</h5>
+    <h6>Encabezados de nivel 6</h6>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="etiqueta-texto"><span style="background-color:darkcyan">Etiquetas de texto</span></h2>
+    <p>
+        Palabras en:<b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc<sup>2</sup>, H <sub>2</sub>O, <mark>Texto resaltado</mark>, <small>Letras pequeñas</small>
+    </p>
+    <hr>
+    <p>
+        <strong>Este texto es importante</strong>,<em>Este texto hace énfasis</em>
+    </p>
+    <blockquote>Sólo se que no se nada</blockquote><!--Para escribir una frase-->
+    <cite>Sócrates</cite><!--Para citar el autor-->
+    <hr>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="etiqueta-salto"><span style="background-color:darkgreen">Etiquetas de salto</span></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Facere id in deserunt culpa, ad veniam dolorem eveniet ullam. Quas, ut.<br><br> Dolor ratione deserunt architecto similique doloremque, tenetur dolores qui est.</p>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="etiqueta-formateo"><span style="background-color:darkgray">Etiquetas de formateo</span></h2>
+    <pre>
+        <p>Tarea por hacer:
+            <b>*En el curso:</b>
+            -No faltar a clase.
+            -Repasar la teoria.
+            -Practicar ejercicios.
+            <b>*En la casa:</b>
+            -Cortar el pasto.
+            -Hacer las compras.
+            -Pagar las cuentas.
+        </p>
+    </pre>
+    <a href="index.html#inicio">☝️</a>
+    <br>
+    <hr>
+    <h2><span style="background-color:aqua">Estructuras basicas de HTML</span></h2>
+    <hr>
+    <h2 id="listas-ordenadas"><span style="background-color:aquamarine">Listas ordenadas</span></h2>
+    <h3>Estaciones del año</h3>
+    <ol>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+
+    </ol>
+    <ol start="6"><!--Con este atributo eligo desde que numero quiero que comience-->
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+
+    </ol>
+    <ol reversed><!--Con este atributo comienza de mayor a menor-->
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+
+    </ol>
+    <ol type="I"><!--Con este atributo podemos cambiar la numeración por lestras o numero romanos-->
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+
+    </ol>
+    <h2 id="listas-desordenadas"><span style="background-color:azure">Listas desordenadas</span></h2>
+    <h3>Cosas por hacer</h3>
+    <ul type="square">
+        <li>Investigar</li>
+        <li>Estudiar</li>
+        <li>Practicar</li>
+        <li>Aprobar</li>
+    </ul>
+    <a href="index.html#inicio">☝️</a>
+    <br>
+    <h2 id="tablas"><span style="background-color:yellow">Tablas</span></h2>
+    <table><!--Se utiliza para armar una tabla igual que en exel-->
+        <tr><!--Con tr se crea una fila-->
+            <th>PAIS</th>
+            <th>CAPITAL</th>
+            <th>CONTINENTE</th><!--Con th se resalta la columna con negrita-->
+        </tr>
+        <tr>
+            <td> Japón</td><!--Con td se crea una columna-->
+            <td>Tokio</td>
+            <td>Asia</td>
+        </tr>
+        <tr>
+            <td>Francia</td>
+            <td>Paris</td>
+            <td>Europa</td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td>Otawa</td>
+            <td>América</td>
+        </tr>
+    </table>
+    <a href="index.html#inicio">☝️</a>
+    <br>
+    <h2 id="enlaces"><span style="background-color:chartreuse">Enlaces</span></h2>
+    <a href="probando-enlaces.html">Por aqui visito el nuevo documento</a><!--Enlaces a otro documento de mi pagina-->
+    <br>
+    <br>
+    <a href="https://lenguajehtml.com/" target="blank"
+    rel="nofollow">Aqui veras mas contenido de HTML</a><!--enlace a otro sitio wep-->
+    <br>
+    <br>
+    <a href="https://www.instagram.com/andress.b22/" target="_blank"><img src="img/instagram.png" alt="Esta imagen visita mi perfil" width="50" height="50"></a><!--Enlace con logo-->
+    <br>
+    <br>
+    <a href="mailto:ac4272838@gmail.com">Enlace a correo electronico</a>
+    <br>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <p id="texto-codigo">
+        <code>Este texto está en formato codigo</code>
+    </p>
+    <pre>
+        <code>
+            function clearScreen() {
+                document.getElementById("Repuesta").value = "";
+            }
+        </code>
+    </pre>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="etiquetas-sematicas">Etiquetas semánticas estructurales</h2>
+    <div style="background-color: cornflowerblue;"><b>*DIV:</b> Es una etiqueta contenedora que no tiene semantica</div>
+    <header><div style="background-color: cornflowerblue;"><b>*HEADER:</b> cabecera de un sitio wep o una seccion</header>
+    <main><div style="background-color: cornflowerblue;"><b>*MAIN:</b> define la sección principal del documento, solo puede existir una por documento</main>
+    <footer><div style="background-color: cornflowerblue;"><b>*FOOTER:</b>Pie e pagina de un sitio wep o una sección</footer>
+    <nav><div style="background-color: rgb(156, 175, 209);"><b>*NAV:</b>representa un menú de navegación</nav>
+    <article><div style="background-color: rgb(117, 135, 169);"><b>*ARTICLE:</b> representa una sección de autocontenido (que por si sola se explica)</article>
+    <aside><div style="background-color: rgb(134, 155, 195);"><b>*ASIDE:</b>representa contenido complementario o secundario</aside>
+    <section><div style="background-color: rgb(150, 177, 228);"><b>*SECTION:</b>representa una sección de contenido genérico</section>
+    <address><div style="background-color: rgb(207, 219, 243);"><b>*ADDRESS:</b>representa una dirección fisica</address>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="etiqueta-bloque-linea">Etiquetas de bloque VS Etiqueta de Linea</h2>
+    <div style="background-color: red;">La etiqueta de bloqueo por Exelecia es la DIV</div>
+    <span style="background-color: rgb(59, 67, 83);">La etiqueta de linea por exelecia es la SPAN</span>
+    <span>Hola, soy otra SPAN</span>
+    <script src="JS/app.js"> </script>
+    <script>
+        console.log("Este codigo esta en el index")
+    </script>
+    <br>
+    <a href="index.html#inicio">☝️</a>
+
+</body>
+</html>

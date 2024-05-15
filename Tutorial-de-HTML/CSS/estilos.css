@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%; /*respecto a la ventana*/
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+}
+
+body{
+    
+    background-size: contain;
+    background-image: IMG("fondo1.jpg");
+    height: 100%;
+}
